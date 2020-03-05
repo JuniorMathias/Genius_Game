@@ -1,0 +1,42 @@
+/* General Content */
+body{
+    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: fantasy;
+    font-weight: 300;
+    font-size: 20px;
+    position: relative;
+    height: 100vh;
+    color: goldenrod;
+    
+}
+/* box to show the content */
+#box{
+    background: gray;
+    border-radius:10px;
+    padding: 100px;
+    width: 500px;
+    margin: auto;
+}
+#insertNumber{
+        width: 90px;
+        height: 20px;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 6px;
+        margin-left: 40px;
+}
+#result {
+    text-align: center;
+    color: blue;
+}
+#imgWainting{
+        width: 200px;
+        height: 200px;
+        margin-left: 130px;
+    /* border: 1px solid black; */
+}
+#button-1{ 
+    text-align: center;
+}
