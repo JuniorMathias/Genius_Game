@@ -6,6 +6,7 @@ function button(){
         alert('Choose the number')
         document.getElementById('result').textContent = `Choose The Number `
     } else  if(randomNumber == number.value) {
+        alert('You are Right ')
         document.getElementById('result').textContent = `How did you know ? `
         img.src = 'surprise.png'
     } else{
