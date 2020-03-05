@@ -3,11 +3,11 @@ body{
     background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
     background-size: cover;
     background-position: center;
-    font-family: fantasy;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 18px;
     position: relative;
-    height: 100vh;
+    height: 100%;
     color: goldenrod;
     
 }
@@ -20,15 +20,16 @@ body{
     margin: auto;
 }
 #insertNumber{
-        width: 90px;
-        height: 20px;
-        text-align: center;
-        font-size: 20px;
-        border-radius: 6px;
-        margin-left: 40px;
+    width: 90px;
+    height: 20px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 6px;
+    margin-left: 40px;
 }
 #result {
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: blue;
 }
 #imgWainting{
@@ -39,4 +40,5 @@ body{
 }
 #button-1{ 
     text-align: center;
+    
 }
