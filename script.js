@@ -7,7 +7,7 @@ function button(){
         document.getElementById('result').textContent = `Choose The Number `
     } else  if(randomNumber == number.value) {
         alert('You are Right ')
-        document.getElementById('result').textContent = `How did you know ? `
+        document.getElementById('result').textContent = `How did you know ? I was thinking about the number ${randomNumber}`
         img.src = 'surprise.png'
     } else{
         document.getElementById('result').textContent = `Come on try again, I was thinking about the number ${randomNumber}`
